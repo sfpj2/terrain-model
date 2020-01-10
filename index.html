@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>terrain_gen</title>
+
+    <script src="libraries\p5.min.js"></script>
+    <script src="libraries\p5.sound.js"></script>
+    <script src="libraries\p5.easycam.js"></script>
+    <script src="dstgenerator.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body oncontextmenu="return false;">
+
+    <div id="stathud" class="hud unselectable">
+      <h3><u>stats.panel</u></h3>
+      <div>
+        <ul id="hud-lallign" class="two"></ul>
+        <ul id="hud-rallign" class="two"></ul>
+      </div>
+    </div>
+
+    <div id="controlhud" class="hud unselectable">
+      <h3><u>control.panel</u></h3>
+      <div>
+        <ul id="hud-panel" class="two"></ul>
+      </div>
+    </div>
+
+    <script src="sketch2.min.js"></script>
+
+  </body>
+
+</html>
