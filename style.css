@@ -120,7 +120,7 @@ input.outline-rnp::-webkit-slider-thumb {
 
 input.outline-rnp::-moz-range-thumb {
   width: 12px;
-  height: 125px;
+  height: 12px;
   border: none;
   border-radius: 50%;
   background: #4caf50;
